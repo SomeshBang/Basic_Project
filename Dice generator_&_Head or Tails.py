@@ -1,4 +1,4 @@
-# Dice genrator
+# Dice generator
 # Head or Tails
 
 import random
@@ -13,7 +13,7 @@ while True:
     x=input("Enter Your Choice....")
     print("-------------------------")
 
-    # Dice genrator
+    # Dice generator
     if int(x) == 1:   
         print("Dice is Rolling....")
         time.sleep(3)
