@@ -4,7 +4,7 @@ from tkinter.scrolledtext import ScrolledText
 
 root = Tk()
 root.title("Font of Tkinter")
-root.geometry("1180x750")
+root.geometry("1180x700")
 fnt = font.families()
 r=1
 c=1
