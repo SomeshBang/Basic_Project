@@ -24,6 +24,9 @@ hh=StringVar()
 bgg="black"
 fgg = "#7626FF"
 
+#------Quit-------
+def q():
+    root.destroy()
 #------------Stopwatch------------
 def stopwatch():
     ss.set("00")
@@ -132,6 +135,9 @@ tim.place(relx=0.001,rely=0.3)
 
 stopwatch_btn = Button(root,text="Stopwatch",font=fnt,bg="black",fg="cyan",command=stopwatch)
 stopwatch_btn.place(x=840,y=10,width=150,height=40)
+
+quit_btn = Button(root,text="Quit",font=fnt,bg="black",fg="red",command=q)
+quit_btn.place(x=840,y=180,width=150,height=40)
 
 clock()
 root.mainloop()
