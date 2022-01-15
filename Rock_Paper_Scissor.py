@@ -3,6 +3,7 @@ import time
 z = True
 
 while z:
+    time.sleep(2)
     print("Choose your option ")
     print("1.Rock \n2.Paper \n3.Scissor \n4.Exit Game")
     ply1 = input("Enter your Choice - ")
